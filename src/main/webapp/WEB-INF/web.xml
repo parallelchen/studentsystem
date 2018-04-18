@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" 
+ 	
+ >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddStudentInfoServlet</servlet-name>
+  	<display-name>AddStudentInfoServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.parallelchen.servlet.AddStudentInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>QueryStudentInfoServlet</servlet-name>
+  	<display-name>QueryStudentInfoServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.parallelchen.servlet.QueryStudentInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AlertStudentServlet</servlet-name>
+  	<display-name>AlertStudentServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.parallelchen.servlet.AlertStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateStudentInfoServlet</servlet-name>
+  	<display-name>UpdateStudentInfoServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.parallelchen.servlet.UpdateStudentInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FindAllServlet</servlet-name>
+  	<display-name>FindAllServlet</display-name>
+  	<servlet-class>org.parallelchen.servlet.FindAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<display-name>IndexServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.parallelchen.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddStudentInfoServlet</servlet-name>
+  	<url-pattern>/AddStudentInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>QueryStudentInfoServlet</servlet-name>
+  	<url-pattern>/QueryStudentInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AlertStudentServlet</servlet-name>
+  	<url-pattern>/AlertStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateStudentInfoServlet</servlet-name>
+  	<url-pattern>/UpdateStudentInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FindAllServlet</servlet-name>
+  	<url-pattern>/FindAllServlet</url-pattern>
+  	
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+</web-app>
